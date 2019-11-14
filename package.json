@@ -1,0 +1,71 @@
+{
+  "name": "vue-samples-sharepointsaturday",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spevilgenius/vue-samples-sharepointsaturday.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-regular-svg-icons": "^5.8.2",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "@syncfusion/ej2-vue-base": "*",
+    "@syncfusion/ej2-vue-charts": "*",
+    "@syncfusion/ej2-vue-gantt": "*",
+    "@syncfusion/ej2-vue-inputs": "*",
+    "@syncfusion/ej2-vue-navigations": "*",
+    "@syncfusion/ej2-vue-pivotview": "*",
+    "@syncfusion/ej2-vue-filemanager": "*",
+    "@syncfusion/ej2-vue-notifications": "*",
+    "@syncfusion/ej2-vue-grids": "*",
+    "@syncfusion/ej2-vue-maps": "*",
+    "@vuex-orm/core": "^0.31.12",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.19",
+    "element-ui": "^2.8.2",
+    "highcharts": "^7.1.1",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "sortablejs": "^1.9.0",
+    "vue": "^2.6.10",
+    "vue-mc": "^0.5.0",
+    "vue-router": "^3.0.6",
+    "vue2-highcharts": "^1.2.5",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "sp-rest-proxy": "^2.8.8",
+    "vue-cli-plugin-bootstrap": "^1.0.0-alpha.1",
+    "vue-cli-plugin-bootstrap-vue": "^0.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
